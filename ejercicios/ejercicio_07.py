@@ -4,15 +4,28 @@
 # personalizado que incluya su nombre.
 # Escribe tu código debajo de esta línea:
 
+nombre = input("Ingresa tu nombre: ")
+print(f"Bienvenid@ {nombre}!")
+print()
+
 
 # Ejercicio 2: Pide al usuario que ingrese su edad como texto (input siempre devuelve texto).
 # Convierte esa edad a un número entero (casting) y luego calcula y muestra cuántos años tendrá 
 # en el año 2050 (puedes asumir que el año actual es 2024 para el cálculo, o restarle su año de nacimiento).
 # Simplificado: asume que sumarle 26 años le da su edad en 2050.
 # Escribe tu código debajo de esta línea:
+edad = int(input("Cuál es tu edad?: "))
+futuro_edad= 26 + edad
+
+print(f"En 2050 tendrás {futuro_edad} años.")
+print()
 
 
 # Ejercicio 3: Pide al usuario que ingrese el precio de un producto. Convierte el valor ingresado 
 # a un número decimal (float). Luego, calcula y muestra el precio con un 20% de descuento.
 # Escribe tu código debajo de esta línea:
+precio = float(input("Ingresa el precio del pasaje de bus: "))
+descuento = precio - (precio * 0.2)
+
+print(f"Solo pagas {descuento:.2f} esta vez.")
 
