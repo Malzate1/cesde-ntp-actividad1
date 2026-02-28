@@ -5,11 +5,20 @@
 frutas = ["manzana", "banana", "cereza", "naranja"]
 # Escribe tu código debajo de esta línea:
 
+for i in frutas:
+    print(i.upper())
+print()
+
 
 # Ejercicio 2: Tienes un diccionario con las calificaciones de un estudiante. 
 # Itera sobre el diccionario e imprime un mensaje con el formato: "En la materia X, la calificación es Y".
 calificaciones = {"Matemáticas": 9.5, "Historia": 8.0, "Ciencias": 10.0}
 # Escribe tu código debajo de esta línea:
+
+for materia,calificacion in calificaciones.items():
+    print(f"En la materia {materia},la calificación es {calificacion}" )
+
+print()
 
 
 # Ejercicio 3: Dada una lista de números, usa un ciclo para iterar sobre ellos y 
@@ -19,3 +28,8 @@ numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 pares = []
 # Escribe tu código debajo de esta línea:
 
+for i in numeros:
+    if i % 2 == 0:
+        pares.append(i)
+        
+print(pares)
