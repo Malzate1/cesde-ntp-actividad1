@@ -23,6 +23,5 @@ print()
 # Escribe tu código debajo de esta línea:
 frase = input("Ingresa una palabra: ")
 
-for i in range (5):
-    print(frase)
+print(frase*5)
 
